@@ -201,8 +201,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><s><em><strong>01:</strong> JavaScript ES6 - let, const, arrow functions e template literals</em></s></td>
       </tr>
       <tr>
-        <td>:black_square_button:</td>
-        <td><strong>02:</strong> JavaScript ES6 - Objects</td>
+        <td>:ballot_box_with_check:</td>
+        <td><s><em><strong>02:</strong> JavaScript ES6 - Objects</em></s></td>
       </tr>
       <tr>
         <td>:black_square_button:</td>

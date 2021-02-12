@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios - Parte II</title>
+</head>
+<body>
+  <button>Contador</button>
+  <p id="cont">0</p>
+  <script>
+    // Exercício 01
+    // Crie uma função que receba um número e retorne seu fatorial.
+    // Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
+    
+    const fatorial = (number) => {
+      let fatorialNumber = 1;
+    
+      for (let index = 2; index <= number; index += 1) {
+        fatorialNumber *= index;
+      }
+    
+      return fatorialNumber;
+    }
+    
+    console.log(fatorial(4));
+    
+    // Exercício 02
+    // Crie uma função que receba uma frase e retorne qual a maior palavra.
+    // longestWord("Antônio foi no banheiro e não sabemos o que aconteceu") // retorna 'aconteceu'
+    
+    const longestWord = (phrase) => {
+      let phraseArray = phrase.split(' ');
+      let word = '';
+      let cont = 0;
+    
+      for (let index = 0; index < phraseArray.length; index += 1) {
+        if (phraseArray[index].length > cont) {
+          word = phraseArray[index];
+          cont = phraseArray[index].length;
+        }
+      }
+    
+      return word;
+    }
+    
+    console.log(longestWord('Antônio foi no banheiro e não sabemos o que aconteceu'));
+
+    // Exercício 03
+    // Crie uma página que contenha:
+    // Um botão ao qual será associado um event listener ;
+    // Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão;
+    // Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.
+    
+    document.querySelector('button').addEventListener('click', () => {
+      const clickCount = document.querySelector('#cont');
+      let cont = 0;
+
+      cont = parseInt(clickCount.innerHTML) + 1;
+      clickCount.innerHTML = cont;
+    })
+
+    // Exercício 04
+    // Função 1 : Escreva uma função que vai receber uma string como parâmetro. Sua função deverá procurar pela letra x em uma string qualquer que você determinar e substituir pela string que você passou como parâmetro. Sua função deve retornar essa nova string .
+
+    const switchName = name => `Tryber ${name} aqui!`;
+
+    console.log(switchName('Nathália'));
+    
+    // Um array com escopo global, que é o escopo do arquivo JS , nesse caso, contendo cinco strings com suas principais skills
+    const skills = ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'];
+
+    // Função 2 : Escreva uma função que vai receber a string retornada da Função 1 como parâmetro. Essa função deve concatenar as skills do array global à string que foi passada para a Função 2 via parâmetro. Você deve ordenar os skills em ordem alfabética. Sua função deve retornar essa nova string .
+
+    const newPhaseCreate = name => {
+      skills.sort( (a, b) => (a - b ));
+
+      const phrase = `${switchName(name)}\nMinhas cinco principais habilidades são:\n- ${skills.join('\n- ')}\n#goTrybe`;
+
+      return phrase;
+    }
+
+    console.log(newPhaseCreate('Nathália'));
+  </script>
+</body>
+</html>

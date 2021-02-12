@@ -264,8 +264,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><s><em><strong>01:</strong> Primeiros passos no Jest</em></s></td>
       </tr>
       <tr>
-        <td>:black_square_button:</td>
-        <td><strong>02:</strong> Jest - Testes Assíncronos</td>
+        <td>:ballot_box_with_check:</td>
+        <td><s><em><strong>02:</strong> Jest - Testes Assíncronos</em></s></td>
       </tr>
       <tr>
         <td>:black_square_button:</td>

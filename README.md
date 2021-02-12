@@ -188,8 +188,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><strong>05:</strong> CSS Responsivo - Mobile First</td>
       </tr>
       <tr>
-        <td>:ballot_box_with_check:</td>
-        <td><s><em><strong>06:</strong> Projeto - Página inicial do Facebook</em></s></td>
+        <td>:black_square_button:</td>
+        <td><strong>06:</strong> Projeto - Página inicial do Facebook</td>
       </tr>
       <tr>
         <td colspan="2" align="center">

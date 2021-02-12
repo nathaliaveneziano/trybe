@@ -139,8 +139,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><s><em><strong>05:</strong> Fundamentos - JavaScript - Projetos</em></s></td>
       </tr>
       <tr>
-        <td>:black_square_button:</td>
-        <td><strong>05:</strong> Projeto - Arte com Pixels</td>
+        <td>:ballot_box_with_check:</td>
+        <td><s><em><strong>05:</strong> Projeto - Arte com Pixels</em></s></td>
       </tr>
       <tr>
         <td>:black_square_button:</td>

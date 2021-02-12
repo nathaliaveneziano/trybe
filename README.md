@@ -209,8 +209,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><s><em><strong>03:</strong> Testes unitários em JavaScript</em></s></td>
       </tr>
       <tr>
-        <td>:black_square_button:</td>
-        <td><strong>04:</strong> Projeto - JavaScript Testes Unitários</td>
+        <td>:ballot_box_with_check:</td>
+        <td><s><em><strong>04:</strong> Projeto - JavaScript Testes Unitários</em></s></td>
       </tr>
       <tr>
         <td colspan="2" align="center">

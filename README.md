@@ -222,10 +222,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><s><em><strong>01:</strong> JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort</em></s></td>
       </tr>
       <tr>
-        <td>:black_square_button:</td>
-        <td>
-          <strong>02:</strong> JavaScript ES6 - Higher Order Functions - map e filter
-        </td>
+        <td>:ballot_box_with_check:</td>
+        <td><s><em><strong>02:</strong> JavaScript ES6 - Higher Order Functions - map e filter</em></s></td>
       </tr>
       <tr>
         <td>:black_square_button:</td>

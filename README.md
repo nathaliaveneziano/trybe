@@ -155,8 +155,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
         <td><s><em><strong>08:</strong> (Bônus) Projeto - Adivinhe a Cor</em></s></td>
       </tr>
       <tr>
-        <td>:black_square_button:</td>
-        <td><strong>08:</strong> (Bônus) Projeto - Carta Misteriosa</td>
+        <td>:ballot_box_with_check:</td>
+        <td><s><em><strong>08:</strong> (Bônus) Projeto - Carta Misteriosa</em></s></td>
       </tr>
       <tr>
         <td colspan="2" align="center">

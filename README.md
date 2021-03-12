@@ -312,16 +312,16 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>01:</strong> Componentes com estado e eventos</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Componentes com estado e eventos</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
       <td>02:</strong> Formulários no React</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Movie Cards Library Stateful</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Projeto - Movie Cards Library Stateful</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -337,8 +337,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td>02:</strong> React Router</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Movie Cards Library CRUD</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Projeto - Movie Cards Library CRUD</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">

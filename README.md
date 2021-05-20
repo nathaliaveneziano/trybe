@@ -317,7 +317,7 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Formulários no React</td>
+      <td><strong>02:</strong> Formulários no React</td>
     </tr>
     <tr>
       <td>:ballot_box_with_check:</td>
@@ -330,11 +330,11 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Ciclo de vida de componentes</td>
+      <td><strong>01:</strong> Ciclo de vida de componentes</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> React Router</td>
+      <td><strong>02:</strong> React Router</td>
     </tr>
     <tr>
       <td>:ballot_box_with_check:</td>
@@ -344,14 +344,14 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td colspan="2" align="center">
         <strong>Bloco 14:</strong> Metodologias Ágeis
       </td>
-    </tr>
+  </tr>
     <tr>
       <td>:ballot_box_with_check:</td>
       <td><s><em><strong>01:</strong> Metodologias Ágeis</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>02:</strong> Projeto - Frontend Online Store</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Projeto - Frontend Online Store</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -360,19 +360,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> RTL - Primeiros passos</td>
+      <td><strong>01:</strong> RTL - Primeiros passos</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> RTL - Mocks e Inputs</td>
+      <td><strong>02:</strong> RTL - Mocks e Inputs</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> RTL - Testando React Router</td>
+      <td><strong>03:</strong> RTL - Testando React Router</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Testes em React</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>04:</strong> Projeto - Testes em React</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -380,37 +380,37 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>01:</strong> Introdução ao Redux - O estado global da aplicação</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Introdução ao Redux - O estado global da aplicação</em></s></td>
+    </tr>
+    <tr>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Usando o Redux no React</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Usando o Redux no React</td>
+      <td><strong>03:</strong> Usando o Redux no React - Prática</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Usando o Redux no React - Prática</td>
+      <td><strong>04:</strong> Usando o Redux no React - Actions Assíncronas</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Usando o Redux no React - Actions Assíncronas</td>
+      <td><strong>05:</strong> Testes em React-Redux</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>05:</strong> Testes em React-Redux</td>
-    </tr>
-    <tr>
-      <td>:black_square_button:</td>
-      <td>06:</strong> Projeto - Trybe Wallet</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>06:</strong> Projeto - Trybe Wallet</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <strong>Bloco 17:</strong> Projeto Jogo de Trivia
-      </td>
+      </em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>01:</strong> Projeto - Jogo de Trivia</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Projeto - Jogo de Trivia</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -418,20 +418,20 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>01:</strong> Context API do React</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> 01:</strong> Context API do React</em></s></td>
+    </tr>
+    <tr>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> 02:</strong> React Hooks - useState e useContext</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> React Hooks - useState e useContext</td>
+      <td><strong>03:</strong> React Hooks - useEffect e Hooks customizados</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>03:</strong> React Hooks - useEffect e Hooks customizados</td>
-    </tr>
-    <tr>
-      <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - StarWars Datatable com Context API e Hooks</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>04:</strong> Projeto - StarWars Datatable com Context API e Hooks</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -439,8 +439,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>01:</strong> Projeto - App de Receitas</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Projeto - App de Receitas</em></s></td>
     </tr>
   </table>
 </details>
@@ -453,32 +453,32 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>01:</strong> Introdução - Back-end</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Introdução - Back-end</em></s></td>
+    </tr>
+    <tr>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Introdução - Bancos de dados relacionais</em></s></td>
+    </tr>
+    <tr>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Banco de dados SQL</em></s></td>
+    </tr>
+    <tr>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Encontrando dados em um banco de dados</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Introdução - Bancos de dados relacionais</td>
+      <td><strong>03:</strong> Filtrando dados de forma específica</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Banco de dados SQL</td>
+      <td><strong>04:</strong> Manipulando tabelas</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td>02:</strong> Encontrando dados em um banco de dados</td>
-    </tr>
-    <tr>
-      <td>:black_square_button:</td>
-      <td>03:</strong> Filtrando dados de forma específica</td>
-    </tr>
-    <tr>
-      <td>:black_square_button:</td>
-      <td>04:</strong> Manipulando tabelas</td>
-    </tr>
-    <tr>
-      <td>:black_square_button:</td>
-      <td>05:</strong> Projeto - All For One</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>05:</strong> Projeto - All For One</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -487,19 +487,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Funções mais usadas no SQL</td>
+      <td><strong>01:</strong> Funções mais usadas no SQL</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Descomplicando JOINs, UNIONs e Subqueries</td>
+      <td><strong>02:</strong> Descomplicando JOINs, UNIONs e Subqueries</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Stored Routines & Stored Functions</td>
+      <td><strong>03:</strong> Stored Routines & Stored Functions</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Vocabulary Booster</td>
+      <td><strong>04:</strong> Projeto - Vocabulary Booster</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -508,19 +508,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Transformando ideias em um modelo de banco de dados</td>
+      <td><strong>01:</strong> Transformando ideias em um modelo de banco de dados</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Normalização, Formas Normais e Dumps</td>
+      <td><strong>02:</strong> Normalização, Formas Normais e Dumps</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Transformando ideias em um modelo de banco de dados -Parte 2</td>
+      <td><strong>03:</strong> Transformando ideias em um modelo de banco de dados -Parte 2</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - One For All</td>
+      <td><strong>04:</strong> Projeto - One For All</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -529,19 +529,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Introdução - NoSQL</td>
+      <td><strong>01:</strong> Introdução - NoSQL</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> MongoDB - Introdução</td>
+      <td><strong>01:</strong> MongoDB - Introdução</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Filter Operators</td>
+      <td><strong>02:</strong> Filter Operators</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Data Flights</td>
+      <td><strong>03:</strong> Projeto - Data Flights</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -550,19 +550,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Updates Simples</td>
+      <td><strong>01:</strong> Updates Simples</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Updates Complexos - Arrays - Parte 1</td>
+      <td><strong>02:</strong> Updates Complexos - Arrays - Parte 1</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Updates Complexos - Arrays - Parte 2</td>
+      <td><strong>03:</strong> Updates Complexos - Arrays - Parte 2</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Commerce</td>
+      <td><strong>04:</strong> Projeto - Commerce</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -571,15 +571,15 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Aggregation Framework - Parte 1</td>
+      <td><strong>01:</strong> Aggregation Framework - Parte 1</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Aggregation Framework - Parte 2</td>
+      <td><strong>02:</strong> Aggregation Framework - Parte 2</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Aggregations</td>
+      <td><strong>03:</strong> Projeto - Aggregations</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -588,31 +588,31 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Intro - NodeJS</td>
+      <td><strong>01:</strong> Intro - NodeJS</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> NodeJS - Introdução</td>
+      <td><strong>01:</strong> NodeJS - Introdução</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> NodeJS - Fluxo Assíncrono</td>
+      <td><strong>02:</strong> NodeJS - Fluxo Assíncrono</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> NodeJS - Arquitetura</td>
+      <td><strong>03:</strong> NodeJS - Arquitetura</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Express: HTTP com Node.js</td>
+      <td><strong>04:</strong> Express: HTTP com Node.js</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>05:</strong> Práticando Express</td>
+      <td><strong>05:</strong> Práticando Express</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>06:</strong> Projeto - Crush Manager</td>
+      <td><strong>06:</strong> Projeto - Crush Manager</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -621,23 +621,23 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Introdução - Arquitetura de Software</td>
+      <td><strong>01:</strong> Introdução - Arquitetura de Software</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Arquitetura de Software - Camada de Model</td>
+      <td><strong>01:</strong> Arquitetura de Software - Camada de Model</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Arquitetura de Software - Camada de Controller e Service</td>
+      <td><strong>02:</strong> Arquitetura de Software - Camada de Controller e Service</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Arquitetura web - Rest e Restful</td>
+      <td><strong>03:</strong> Arquitetura web - Rest e Restful</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Store Manager</td>
+      <td><strong>04:</strong> Projeto - Store Manager</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -646,15 +646,15 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> NodeJS - JWT - (JSON Web Token)</td>
+      <td><strong>01:</strong> NodeJS - JWT - (JSON Web Token)</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> NodeJS - Upload de arquivos com Multer</td>
+      <td><strong>02:</strong> NodeJS - Upload de arquivos com Multer</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Cookmaster</td>
+      <td><strong>03:</strong> Projeto - Cookmaster</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -663,19 +663,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Introdução - Deploy</td>
+      <td><strong>01:</strong> Introdução - Deploy</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Infraestrutura - Deploy com Heroku</td>
+      <td><strong>01:</strong> Infraestrutura - Deploy com Heroku</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Deploy - Gerenciadores de Processos</td>
+      <td><strong>02:</strong> Deploy - Gerenciadores de Processos</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Stranger Things</td>
+      <td><strong>03:</strong> Projeto - Stranger Things</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -684,7 +684,7 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Projeto - Trybeer</td>
+      <td><strong>01:</strong> Projeto - Trybeer</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
@@ -692,23 +692,23 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Arquitetura - Princípios SOLID</td>
+      <td><strong>01:</strong> Arquitetura - Princípios SOLID</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> ORM - Interface da aplicação com o banco de dados</td>
+      <td><strong>02:</strong> ORM - Interface da aplicação com o banco de dados</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> ORM - Associations</td>
+      <td><strong>03:</strong> ORM - Associations</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Boas práticas na escrita de testes</td>
+      <td><strong>04:</strong> Boas práticas na escrita de testes</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>05:</strong> Projeto - API de Blogs</td>
+      <td><strong>05:</strong> Projeto - API de Blogs</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -717,19 +717,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Arquitetura de Software - Camada de View</td>
+      <td><strong>01:</strong> Arquitetura de Software - Camada de View</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Sockets - TCP/UDP & NET</td>
+      <td><strong>02:</strong> Sockets - TCP/UDP & NET</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Sockets - Socket.io</td>
+      <td><strong>03:</strong> Sockets - Socket.io</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Webchat</td>
+      <td><strong>04:</strong> Projeto - Webchat</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -738,7 +738,7 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Projeto - Trybeer v2</td>
+      <td><strong>01:</strong> Projeto - Trybeer v2</td>
     </tr>
   </table>
 </details>
@@ -752,23 +752,23 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Introdução - Ciência da Computação</td>
+      <td><strong>01:</strong> Introdução - Ciência da Computação</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Arquitetura de Computadores</td>
+      <td><strong>01:</strong> Arquitetura de Computadores</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Arquitetura de redes</td>
+      <td><strong>02:</strong> Arquitetura de redes</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Redes de computadores, ferramentas e segurança</td>
+      <td><strong>03:</strong> Redes de computadores, ferramentas e segurança</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Explorando os protocolos</td>
+      <td><strong>04:</strong> Projeto - Explorando os protocolos</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -777,23 +777,23 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Aprendendo Python</td>
+      <td><strong>01:</strong> Aprendendo Python</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Entrada e Saída de Dados</td>
+      <td><strong>02:</strong> Entrada e Saída de Dados</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Raspagem de Dados</td>
+      <td><strong>03:</strong> Raspagem de Dados</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Testes</td>
+      <td><strong>04:</strong> Testes</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>05:</strong> Projeto - Tech news</td>
+      <td><strong>05:</strong> Projeto - Tech news</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -803,19 +803,19 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Introdução à programação orientada a objetos</td>
+      <td><strong>01:</strong> Introdução à programação orientada a objetos</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Programação orientada a objetos na prática</td>
+      <td><strong>02:</strong> Programação orientada a objetos na prática</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Padrões de projeto</td>
+      <td><strong>03:</strong> Padrões de projeto</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Projeto - Relatórios de Estoque</td>
+      <td><strong>04:</strong> Projeto - Relatórios de Estoque</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -824,23 +824,23 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Estrutura de Dados I - Arrays</td>
+      <td><strong>01:</strong> Estrutura de Dados I - Arrays</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Estrutura de Dados I - Complexidade de Algoritmos</td>
+      <td><strong>02:</strong> Estrutura de Dados I - Complexidade de Algoritmos</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Recursividade e Estratégias para solução de problemas</td>
+      <td><strong>03:</strong> Recursividade e Estratégias para solução de problemas</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Algoritmos de ordenação e busca</td>
+      <td><strong>04:</strong> Algoritmos de ordenação e busca</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>05:</strong> Projeto - Algoritmos</td>
+      <td><strong>05:</strong> Projeto - Algoritmos</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -849,15 +849,15 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Estrutura de dados II - Hash maps & Dict</td>
+      <td><strong>01:</strong> Estrutura de dados II - Hash maps & Dict</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Estrutura de dados II - Set</td>
+      <td><strong>02:</strong> Estrutura de dados II - Set</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Projeto - Restaurant Orders</td>
+      <td><strong>03:</strong> Projeto - Restaurant Orders</td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -866,23 +866,23 @@ Repositório com todos os projetos desenvolvidos durante o curso.
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>01:</strong> Estrutura de dados III - Pilhas</td>
+      <td><strong>01:</strong> Estrutura de dados III - Pilhas</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>02:</strong> Estrutura de dados III - Deque</td>
+      <td><strong>02:</strong> Estrutura de dados III - Deque</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>03:</strong> Estrutura de Dados III - Nó & Listas ligadas</td>
+      <td><strong>03:</strong> Estrutura de Dados III - Nó & Listas ligadas</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>04:</strong> Estrutura de Dados III - Listas duplamente ligadas</td>
+      <td><strong>04:</strong> Estrutura de Dados III - Listas duplamente ligadas</td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
-      <td>05:</strong> Projeto - TING - Trybe Is Not Google</td>
+      <td><strong>05:</strong> Projeto - TING - Trybe Is Not Google</td>
     </tr>
   </table>
 </details>

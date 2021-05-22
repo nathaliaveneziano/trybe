@@ -469,8 +469,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td><s><em><strong>02:</strong> Encontrando dados em um banco de dados</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>03:</strong> Filtrando dados de forma específica</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Filtrando dados de forma específica</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>
@@ -490,8 +490,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td><s><em><strong>01:</strong> Funções mais usadas no SQL</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>02:</strong> Descomplicando JOINs, UNIONs e Subqueries</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Descomplicando JOINs, UNIONs e Subqueries</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>

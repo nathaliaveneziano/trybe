@@ -511,8 +511,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td><strong>01:</strong> Transformando ideias em um modelo de banco de dados</td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>02:</strong> Normalização, Formas Normais e Dumps</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Normalização, Formas Normais e Dumps</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>

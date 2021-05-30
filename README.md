@@ -473,8 +473,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td><s><em><strong>03:</strong> Filtrando dados de forma específica</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>04:</strong> Manipulando tabelas</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>04:</strong> Manipulando tabelas</em></s></td>
     </tr>
     <tr>
       <td>:ballot_box_with_check:</td>
@@ -507,16 +507,16 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>01:</strong> Transformando ideias em um modelo de banco de dados</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Transformando ideias em um modelo de banco de dados</em></s></td>
     </tr>
     <tr>
       <td>:ballot_box_with_check:</td>
       <td><s><em><strong>02:</strong> Normalização, Formas Normais e Dumps</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>03:</strong> Transformando ideias em um modelo de banco de dados -Parte 2</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Transformando ideias em um modelo de banco de dados - Parte 2</em></s></td>
     </tr>
     <tr>
       <td>:black_square_button:</td>

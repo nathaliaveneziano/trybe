@@ -494,12 +494,12 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td><s><em><strong>02:</strong> Descomplicando JOINs, UNIONs e Subqueries</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>03:</strong> Stored Routines & Stored Functions</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Stored Routines & Stored Functions</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>04:</strong> Projeto - Vocabulary Booster</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>04:</strong> Projeto - Vocabulary Booster</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -519,8 +519,8 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       <td><s><em><strong>03:</strong> Transformando ideias em um modelo de banco de dados - Parte 2</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>04:</strong> Projeto - One For All</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>04:</strong> Projeto - One For All</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">

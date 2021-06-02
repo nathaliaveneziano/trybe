@@ -1,0 +1,151 @@
+// insertOne({})
+
+
+// Exemplo Vídeo
+// criando banco
+use('veiculos');
+// cria collection (como se fosse a tabela do SQL) e adiciona 1 registro
+db.carros.insertOne({
+  "nome": "Fusca",
+  "preco": 2000
+});
+// exibe os dados inseridos
+db.carros.find();
+
+// se quiser inserir id manual (personalizado)
+// não recomendado, apenas se for necessário
+use('veiculos');
+db.carros.insertOne({
+  "_id": 1, 
+  "nome": "Camaro",
+  "preco": 250000
+});
+db.carros.find();
+
+
+// Exemplo Course
+/* Crie um documento na coleção products, no banco de dados sample, com os seguintes atributos e valores: */
+use('sample');
+db.products.insertOne({
+  "productName": "Caixa",
+  "price": 20
+});
+db.products.find();
+
+/* Crie um novo documento com os mesmos atributos e valores do documento anterior mas passando um valor no campo _id */
+use('sample');
+db.products.insertOne({
+  "_id": 1, 
+  "productName": "Caixa",
+  "price": 20
+});
+db.products.find();
+
+
+// insertMany([{}, {}, ...])
+
+
+// Exemplo Vídeo
+use('veiculos');
+db.products.insertMany([
+  { 
+    "_id": 1,
+    "nome": "Gol",
+    "preco": 15000,
+    "portas": 4,
+    "status":"usado"
+  },
+  { 
+    "_id": 2,
+    "nome": "Onix",
+    "preco": 25000,
+    "portas": 4,
+    "status":"semi-novo"
+  },
+  { 
+    "_id": 1,
+    "nome": "Gol",
+    "preco": 15000,
+    "portas": 4,
+    "status":"usado"
+  },
+  { 
+    "_id": 3,
+    "nome": "Marea",
+    "preco": 1000,
+    "portas": 4,
+    "status":"usado"
+  },
+  { 
+    "_id": 4,
+    "nome": "Kombi",
+    "preco": 10000,
+    "portas": 2,
+    "status":"semi-novo"
+  },
+  { 
+    "_id": 5,
+    "nome": "Compass",
+    "preco": 100000,
+    "portas": 4,
+    "status":"novo"
+  },
+]);
+db.carros.find();
+
+// Continua inserção de dados mesmo tendo campos com mesmo id ou erro
+use('veiculos');
+db.products.insertMany([
+  { 
+    "_id": 1,
+    "nome": "Gol",
+    "preco": 15000,
+    "portas": 4,
+    "status":"usado"
+  },
+  { 
+    "_id": 2,
+    "nome": "Onix",
+    "preco": 25000,
+    "portas": 4,
+    "status":"semi-novo"
+  },
+  { 
+    "_id": 1,
+    "nome": "Gol",
+    "preco": 15000,
+    "portas": 4,
+    "status":"usado"
+  },
+  { 
+    "_id": 3,
+    "nome": "Marea",
+    "preco": 1000,
+    "portas": 4,
+    "status":"usado"
+  },
+  { 
+    "_id": 4,
+    "nome": "Kombi",
+    "preco": 10000,
+    "portas": 2,
+    "status":"semi-novo"
+  },
+  { 
+    "_id": 5,
+    "nome": "Compass",
+    "preco": 100000,
+    "portas": 4,
+    "status":"novo"
+  },
+], { ordered: false });
+db.carros.find();
+
+// Exemplo Course
+use('sample');
+db.products.insertMany([
+  { "productName": "Lapis", "stock": 10, "price": 20,"status":"A"},
+  { "productName": "Tesoura", "price": 5, "status": "B" },
+  { "productName": "Borracha", "price": 15, "status": "A" }
+]);
+db.products.find();

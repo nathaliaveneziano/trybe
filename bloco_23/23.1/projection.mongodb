@@ -1,0 +1,47 @@
+// Inserção de Dados e Filtro Geral
+
+
+use('sample');
+db.movies.insertOne(
+  {
+    "title" : "Forrest Gump",
+    "category" : [ "drama", "romance" ],
+    "imdb_rating" : 8.8,
+    "filming_locations" : [
+        { "city" : "Savannah", "state" : "GA", "country" : "USA" },
+        { "city" : "Monument Valley", "state" : "UT", "country" : "USA" },
+        { "city" : "Los Anegeles", "state" : "CA", "country" : "USA" }
+    ],
+    "box_office" : {
+        "gross" : 557, "opening_weekend" : 24, "budget" : 55
+      }
+  }
+)
+db.movies.find();
+
+
+// Filtro com Parâmetros de Projeção
+
+
+/*
+A projeção é sempre o segundo parâmetro do método find().
+{ "atributo1": <valor>, "atributo2": <valor> ... }
+
+O valor do atributo pode ser uma das seguintes opções:
+  - 1 ou true: para incluir um campo nos documentos retornados;
+  - 0 ou false: para excluir um campo;
+*/
+use('sample');
+db.movies.findOne(
+  { "title" : "Forrest Gump" },
+  { "title" : 1, "imdb_rating" : 1 }
+)
+
+/*
+O atributo _id é o único atributo que você não precisa especificar para que seja retornado. Se você não quiser vê-lo no retorno, é só suprimí-lo da seguinte forma:
+*/
+use('sample');
+db.movies.findOne(
+    { "title" : "Forrest Gump" },
+    { "title" : 1, "imdb_rating" : 1, "_id": 0 }
+)

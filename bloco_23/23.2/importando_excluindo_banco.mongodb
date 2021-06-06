@@ -1,0 +1,12 @@
+use('aula-filter-operators');
+
+db.filmes.find().count();
+
+
+// Importando Banco de Dados
+// No terminal, digite o código abaixo:
+// mongoimport --db class --collection superheroes <caminho_do_arquivo>
+
+
+// Apagando uma dataset já alterada
+db.dropDatabase();

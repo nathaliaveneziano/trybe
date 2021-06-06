@@ -1,0 +1,31 @@
+// Removendo documentos
+
+
+// db.colecao.deleteOne()
+/*
+Esse método remove apenas um documento, que deve satisfazer o critério de seleção, mesmo que múltiplos outros documentos também se enquadrem no critério de seleção. Se nenhum valor for passado como parâmetro, a operação removerá o primeiro documento.
+*/
+db.inventory.deleteOne({ status: "D" })
+
+
+// db.colecao.deleteMany()
+
+
+// Esse método remove todos os documentos que satisfaçam o critério de seleção.
+db.inventory.deleteMany({ status : "A" })
+
+// Para remover todos os documentos da coleção
+db.inventory.deleteMany( {} )
+
+
+// Vamos praticar !
+
+
+
+// Exercício 1 - Remova o primeiro restaurante que possua culinária do tipo Ice Cream, Gelato, Yogurt, Ices .
+use('business');
+db.restaurants.deleteOne({ cuisine: "Ice Cream, Gelato, Yogurt, Ices" });
+
+// Exercício 2 - Remova todos os restaurantes que possuem culinária do tipo American .
+use('business');
+db.restaurants.deleteMany({ cuisine: "American" });

@@ -1,0 +1,74 @@
+// Operadores de Comparação
+
+/*
+Esses operadores são utilizados como parte do filtro de alguns métodos para leitura de documentos do MongoDB.
+
+{ <campo>: { <operador>: <valor> } }
+
+Os operadores são identificados pelo prefixo $ 
+*/
+
+// Operador $lt (menor do que (<) o valor especificado)
+db.inventory.find({ qty: { $lt: 20 } });
+
+
+// Operador $lte (menor ou igual (<=) ao valor especificado)
+db.inventory.find({ qty: { $lte: 20 } });
+
+
+// Operador $gt (maior do que (>) o valor especificado)
+db.inventory.find({ qty: { $gt: 20 } });
+
+
+// Operador $gte (maior ou igual (>=) o valor especificado)
+db.inventory.find({ qty: { $gte: 20 } });
+
+
+// Operador $eq (igual (=) ao valor especificado)
+db.inventory.find({ qty: { $eq: 20 } });
+// equivalente a 
+db.inventory.find({ qty: 20 })
+
+
+// Operador $ne (o valor do campo filtrado NÂO É IGUAL ao valor especificado)
+db.inventory.find({ qty: { $ne: 20 } });
+// A query acima retorna os documentos da coleção inventory cujo valor do campo qty é diferente de 20 , incluindo os documentos em que o campo qty não existe.
+
+
+// Operador $in (para comparar igualdade com mais de um valor no mesmo campo)
+db.inventory.find({ qty: { $in: [ 5, 15 ] } });
+
+
+// Operador $nin (o valor do campo filtrado NÂO É IGUAL ao especificado no array)
+db.inventory.find({ qty: { $nin: [ 5, 15 ] } });
+// Essa query seleciona todos os documentos da coleção inventory em que o valor do campo qty é diferente de 5 e 15 . Esse resultado também inclui os documentos em que o campo qty não existe.
+
+
+
+// Vamos praticar !
+
+
+
+// Exercício 1 - Selecione e faça a contagem dos restaurantes presentes nos bairros (campo borough ) Queens , Staten Island e Bronx .
+use('business');
+db.restaurants.find({ borough: { $in: ["Queens", "Staten Island", "Bronx"] } }).count();
+
+
+// Exercício 2 - Selecione e faça a contagem dos restaurantes que não possuem culinária (campo cuisine ) do tipo American .
+use('business');
+db.restaurants.find({ cuisine: { $eq: 'American' } }).count();
+
+
+// Exercício 3 - Selecione e faça a contagem dos restaurantes que possuem avaliação (campo rating ) maior ou igual a 8 .
+use('business');
+db.restaurants.find({ rating: { $gte: 8 } }).count();
+
+
+// Exercício 4 - Selecione e faça a contagem dos restaurantes que possuem avaliação menor que 4 .
+use('business');
+db.restaurants.find({ rating: { $lt: 4 } }).count();
+
+
+// Exercício 5 - Selecione e faça a contagem dos restaurantes que não possuem as avaliações 5 , 6 e 7 .
+use('business');
+db.restaurants.find({ rating: { $nin: [5, 6, 7] } }).count();

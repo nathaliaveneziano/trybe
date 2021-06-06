@@ -1,0 +1,90 @@
+// Operadores Lógicos
+
+
+// Operador $not (seleciona os documentos que NÃO correspondam ao < operador ou expressão >, incluindo os documentos que não contêm o campo)
+// { campo: { $not: { <operador ou expressão> } } }
+db.inventory.find({ price: { $not: { $gt: 1.99 } } });
+
+
+// Operador $or (executa a operação lógica OU em um array de uma ou mais expressões e seleciona os documentos que satisfaçam ao menos uma das expressões)
+// { $or: [{ <expression1> }, { <expression2> }, ... , { <expressionN> }] }
+db.inventory.find({ $or: [{ qty: { $lt: 20 } }, { price: 10 }] });
+// Essa query seleciona todos os documentos da coleção inventory em que o valor do campo qty é menor do que 20 ou o valor do campo price é igual a 10 .
+
+
+// Operador $nor (seleciona os documentos em que todas as expressões de um array de uma ou mais expressões sejam falsas)
+// { $nor: [ { <expressão1> }, { <expressão2> }, ...  { <expressãoN> } ] }
+db.inventory.find({ $nor: [{ price: 1.99 }, { sale: true }] })
+/*
+Essa query retorna todos os documentos da coleção inventory que:
+  - Contêm o campo price com valor diferente de 1.99 e o campo sale com valor diferente de true ;
+  - Ou contêm o campo price com valor diferente de 1.99 e não contêm o campo sale ;
+  - Ou não contêm o campo price e contêm o campo sale com valor diferente de true ;
+  - Ou não contêm o campo price e nem o campo sale .
+*/
+
+
+// Operador $and (seleciona os documentos que satisfaçam todas as expressões no array)
+// O operador $and usa o que chamamos de avaliação em curto-circuito ( short-circuit evaluation ). Se alguma expressão for avaliada como falsa , o MongoDB não avaliará as expressões restantes, pois a expressão como um todo será falsa independentemente delas.
+// { $and: [{ <expressão1> }, { <expressão2> } , ... , { <expressãoN> }] }
+db.inventory.find({ qty: { $in: [ 5, 15 ] } });
+
+    // Múltiplas expressões especificando o mesmo campo
+    db.inventory.find({
+    and: [
+        { price: { $ne: 1.99 } },
+        { price: { $exists: true } }
+      ]
+    });
+    // Essa query seleciona todos os documentos da coleção inventory em que o valor do campo price é diferente de 1.99 e o campo price existe.
+
+    // Múltiplas expressões especificando o mesmo operador
+    db.inventory.find({
+      and: [
+        {
+          or: [
+            { price: { $gt: 0.99, $lt: 1.99 } }
+          ]
+        },
+        {
+          or: [
+            { sale : true },
+            { qty : { $lt : 20 } }
+          ]
+        }
+      ]
+    })
+    // Essa query seleciona todos os documentos da coleção inventory em que o valor do campo price é maior que 0.99 ou menor que 1.99 , e o valor do campo sale é igual a true ou o valor do campo qty é menor do que 20 . Ou seja, essa expressão é equivalente a (price > 0.99 ou price < 1.99) e (sale = true ou qty < 20).
+
+
+
+// Vamos praticar !
+
+
+
+// Exercício 1 - Selecione e faça a contagem dos restaurantes que não possuem avaliação menor ou igual a 5 , essa query também deve retornar restaurantes que não possuem o campo avaliação.
+use('business');
+db.restaurants.find({ rating: { $not: { $lte: 5 } } }).count();
+
+
+// Exercício 2 - Selecione e faça a contagem dos restaurante em que a avaliação seja maior ou igual a 6 , ou restaurantes localizados no bairro Brooklyn .
+use('business');
+db.restaurants.find({ $or: [{ rating: { $gte: 6 } }, { borough: 'Brooklyn'}] }).count();
+
+
+// Exercício 3 - Selecione e faça a contagem dos restaurantes localizados nos bairros Queens , Staten Island e Broklyn e possuem avaliação maior que 4 .
+use('business');
+db.restaurants.find({ $and: [{ borough: { $in: ['Queens', 'Staten Island', 'Broklyn'] } }, { rating: { $gt: 4 } }] }).count();
+
+
+// Exercício 4 - Selecione e faça a contagem dos restaurantes onde nem o campo avaliação seja igual a 1 , nem o campo culinária seja do tipo American .
+use('business');
+db.restaurants.find({ $nor: [{ rating: 1 }, { cuisine: 'American' }] }).count();
+
+
+// Exercício 5 - Selecione e faça a contagem dos resturantes em que a avaliação seja maior que 6 ou menor que 10 , e esteja localizado no bairro Brooklyn ou não possuem culinária do tipo Delicatessen .
+use('business');
+db.restaurants.find({ $and: [
+  { $or: [{ rating: { $gt: 6 } }, { rating: { $lt: 10 } }] },
+  { $or: [{ borough: 'Brooklyn' }, { cuisine: { $not: { $eq: 'Delicatessen' } } }] }
+]}).count();

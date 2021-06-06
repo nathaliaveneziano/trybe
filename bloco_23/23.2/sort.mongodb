@@ -1,0 +1,36 @@
+// Método sort()
+
+
+/*
+Quando existe a necessidade de ordenar os documentos por algum campo o método sort se mostra muito útil. Usando um valor positivo, 1 , como valor do campo os documentos da query são ordenados de forma crescente ou alfabética (Ele também ordena por campos com strings ). Em complemento, usando um valor negativo, -1 , os documentos de saída em ordem decrescente ou contra alfabética.
+*/
+db.colecao.find().sort({ "campo": "1 ou -1"})
+
+
+use('sample');
+db.example.insertMany([
+  { "name": "Mandioquinha Frita", "price": 14 },
+  { "name": "Litrão", "price": 8 },
+  { "name": "Torresmo", "price": 16 }
+]);
+
+// Exemplo sem ordenação
+use('sample');
+db.example.find().sort({ "price": 1 }).pretty();
+
+
+// Exemplo com ordenação
+use('sample');
+db.example.find().sort({ "price": -1 }, { "name" : 1 }).pretty();
+
+
+// Vamos praticar !
+
+
+// Exercício 1 - Ordene alfabeticamente os restaurantes pelo nome (campo name ).
+use('business');
+db.restaurants.find().sort({ "name" : 1 });
+
+// Exercício 2 - Ordene os restaurantes de forma descrescente baseado nas avaliações.
+use('business');
+db.restaurants.find().sort({ "rating" : -1 });

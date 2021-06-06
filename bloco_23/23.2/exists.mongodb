@@ -1,0 +1,13 @@
+// Operador $exists
+
+
+/*
+Quando o <boolean> é verdadeiro ( true ), o operador $exists encontra os documentos que contêm o campo , incluindo os documentos em que o valor do campo é null . Se o <boolean> é falso ( false ), a query retorna somente os documentos que não contêm o campo.
+
+{ campo: { $exists: <boolean> } }
+*/
+
+db.inventory.find({ qty: { $exists: true } })
+
+// Pode combinar operadores
+db.inventory.find({ qty: { $exists: true, $nin: [ 5, 15 ] } })

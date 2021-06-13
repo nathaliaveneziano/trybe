@@ -1,0 +1,28 @@
+// Removendo campos com o operador $unset
+
+/*
+Para remover um ou mais campos de um documento, utilize o operador $unset .
+*/
+
+{
+  _id: 100,
+  productName: "Banana",
+  quantity: 100,
+  inStock: true
+}
+
+use('conteudo_trybe');
+db.fruits.updateMany(
+  { productName: "Banana" },
+  { $unset: { quantity: "" } }
+);
+
+use('conteudo_trybe');
+db.fruits.find();
+
+// Resultado:
+// {
+//   _id: 100,
+//   productName: "Banana",
+//   inStock: true
+// }

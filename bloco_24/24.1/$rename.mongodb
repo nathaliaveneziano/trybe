@@ -1,0 +1,26 @@
+// Renomeando campos com o operador $rename
+
+/*
+Você pode querer renomear um determinado atributo de um ou mais documentos. Para isso, utilize o operador $rename .
+
+Esse operador recebe um documento contendo o nome atual do campo e o novo nome. Pode ser utilizado com os métodos updateOne() ou updateMany() , e também pode receber um critério de seleção de documentos.
+*/
+use('conteudo_trybe');
+db.fruits.insertOne(
+  { _id: 100, name: "Banana", quantity: 100, inStock: true }
+);
+
+use('conteudo_trybe');
+db.fruits.find();
+
+use('conteudo_trybe');
+db.fruits.updateOne(
+  { name: "Banana" },
+  { $rename: {
+      "name": "productName"
+    }
+  }
+);
+
+// Resultado:
+// { _id: 100, quantity: 100, inStock: true, productName: 'Banana' }

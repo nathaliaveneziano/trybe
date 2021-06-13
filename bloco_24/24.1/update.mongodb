@@ -1,0 +1,46 @@
+// update
+
+/*
+A operação update é a que você utiliza quando quer alterar documentos de uma coleção no MongoDB.
+Dois métodos para modificar documentos serão vistos:
+  - db.colecao.updateOne(<filtro>, <update operators>, <opcoes>);
+  - db.colecao.updateMany(<filtro>, <update operators>, <opcoes>).
+*/
+
+
+// updateOne
+
+/*
+Ele altera apenas o primeiro documento que satisfaça o critério de filtro.
+*/
+use('conteudo_trybe');
+db.inventory.find();
+
+use('conteudo_trybe');
+db.inventory.updateOne(
+  { item: "paper" },
+  { $set: { "size.uom": "cm", status: "P" } }
+);
+
+/*
+Chamando o método db.colecao.updateOne() com o parâmetro de filtro vazio { } , o resultado é a atualização do primeiro documento presente em colecao.
+*/
+
+
+// updateMany
+
+/*
+Permite que vários documentos que satisfaçam o critério de filtro sejam alterados de uma única vez.
+*/
+use('conteudo_trybe');
+db.inventory.find();
+
+use('conteudo_trybe');
+db.inventory.updateMany(
+  { "qty": { $lt: 50 } },
+  { $set: { "size.uom": "in", status: "P" } }
+);
+
+/*
+Chamando o método db.colecao.updateMany() com o parâmetro de filtro vazio { } , o resultado é a atualização de todos os documentos presentes em colecao.
+*/

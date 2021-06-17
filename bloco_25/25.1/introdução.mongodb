@@ -1,0 +1,8 @@
+/*
+As operações de agregação processam dados e retornam resultados calculados. Essas operações podem agrupar valores de múltiplos documentos ou coleções , executar uma variedade de operações nesses dados agrupados e, por fim, retornar um único resultado.
+
+O MongoDB fornece três caminhos para executar operações de agregação:
+  - aggregation pipeline
+  - map-reduce function
+  - single purpose aggregation methods.
+*/

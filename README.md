@@ -549,20 +549,20 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>01:</strong> Updates Simples</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Updates Simples</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>02:</strong> Updates Complexos - Arrays - Parte 1</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Updates Complexos - Arrays - Parte 1</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>03:</strong> Updates Complexos - Arrays - Parte 2</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Updates Complexos - Arrays - Parte 2</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>04:</strong> Projeto - Commerce</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>04:</strong> Projeto - Commerce</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">
@@ -570,16 +570,16 @@ Repositório com todos os projetos desenvolvidos durante o curso.
       </td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>01:</strong> Aggregation Framework - Parte 1</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>01:</strong> Aggregation Framework - Parte 1</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>02:</strong> Aggregation Framework - Parte 2</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>02:</strong> Aggregation Framework - Parte 2</em></s></td>
     </tr>
     <tr>
-      <td>:black_square_button:</td>
-      <td><strong>03:</strong> Projeto - Aggregations</td>
+      <td>:ballot_box_with_check:</td>
+      <td><s><em><strong>03:</strong> Projeto - Aggregations</em></s></td>
     </tr>
     <tr>
       <td colspan="2" align="center">

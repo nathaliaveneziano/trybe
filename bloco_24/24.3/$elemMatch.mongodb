@@ -1,0 +1,105 @@
+// Operador $elemMatch
+
+/*
+O operador $elemMatch seleciona os documentos que contêm um campo do tipo array com pelo menos um elemento que satisfaça todos os critérios de seleção especificados. Ou seja, com esse operador você pode especificar várias queries para um mesmo array.
+*/
+
+
+use("masterchef");
+db.notas.insertMany([
+  {
+    _id: 1,
+    nome: "Henrique",
+    notas: [80, 76, 23, 67]
+  },
+  {
+    _id: 2,
+    nome: "Paola",
+    notas: [99, 32, 56, 88]
+  },
+  {
+    _id: 3,
+    nome: "Erick",
+    notas: [78, 81, 92, 20]
+  },
+  {
+    _id: 4,
+    nome: "Ana Paula",
+    notas: [76, 77, 78, 83]
+  }
+]);
+
+
+// Procura elementos dentro da condição passada
+use("masterchef");
+db.notas.find({ notas: { $elemMatch: { $gte: 80 } } });
+
+use("masterchef");
+db.notas.find({ notas: { $elemMatch: { $gte: 90 } } });
+
+use("masterchef");
+db.notas.find({ notas: { $elemMatch: { $gte: 10, $lt: 30 } } });
+
+// Não retorna nenhum retorno, pois não existe nenhum valor acima de 100
+use("masterchef");
+db.notas.find({ notas: { $elemMatch: { $gte: 100 } } });
+
+
+use("conteudo_trybe");
+db.results.insertMany([
+  { _id: 1, results: [82, 85, 88] },
+  { _id: 2, results: [75, 88, 89] }
+]);
+
+use("conteudo_trybe");
+db.results.find();
+
+
+// array que contém ao menos um elemento que seja maior ou igual a 80 e menor que 85
+use("conteudo_trybe");
+db.results.find(
+  { results: { $elemMatch: { $gte: 80, $lt: 85 } } }
+);
+
+use("conteudo_trybe");
+db.survey.insertMany([
+  {
+    _id: 1,
+    results: [
+      { product: "abc", score: 10 },
+      { product: "xyz", score: 5 }
+    ]
+  },
+  {
+    _id: 2,
+    results: [
+      { product: "abc", score: 8 },
+      { product: "xyz", score: 7 }
+    ]
+  },
+  {
+    _id: 3,
+    results: [
+      { product: "abc", score: 7 },
+      { product: "xyz", score: 8 }
+    ]
+  }
+]);
+
+// documentos que ao menos um elemento subdocumento com o campo product igual a xyz e o campo score maior ou igual a 8
+use("conteudo_trybe");
+db.survey.find(
+  { results: { $elemMatch: { product: "xyz", score: { $gte: 8 } } } }
+);
+
+
+// Você não precisa utilizar o operador $elemMatch se estiver utilizando uma condição para apenas um campo do documento embedado.
+use("conteudo_trybe");
+db.survey.find(
+  { results: { $elemMatch: { product: "xyz" } } }
+);
+// é igual
+use("conteudo_trybe");
+db.survey.find(
+  { "results.product": "xyz" }
+);

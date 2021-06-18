@@ -1,0 +1,43 @@
+// Expressão $round
+
+
+/*
+A expressão $round retorna o número inteiro mais próximo do valor atual e também permite definir a quantidade de casas decimais que você quer manter ao arredondar.
+*/
+
+// Arredondando números
+use("conteudo_trybe");
+db.samples.aggregate([
+  { $project: { value: 1, roundedValue: { $round: ["$value"] } } }
+]);
+
+// Arredondando com casas decimais
+use("conteudo_trybe");
+db.samples.aggregate([
+  { $project: { value: 1, roundedValue: { $round: ["$value", 1] } } }
+]);
+
+
+// Exercícios de fixação
+
+
+/*
+Exercício 1 - Retorne o menor número inteiro relativo ao preço de venda de cada produto;
+*/
+use("storage");
+db.products.aggregate([
+  { $project: { name: 1, sale_price: 1, smallestNumber: { 
+    $floor: "$sale_price" }
+  } }
+]);
+
+
+/*
+Exercício 2 - Retorne o maior número inteiro relativo ao lucro total sobre cada produto.
+*/
+use("storage");
+db.products.aggregate([
+  { $project: { name: 1, sale_price: 1, higherNumber: { 
+    $ceil: "$sale_price" }
+  } }
+]);

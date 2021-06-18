@@ -1,0 +1,44 @@
+// Expressão $add
+
+
+/*
+Com a expressão $add , é possível somar valores numéricos ou datas. Se um dos argumentos for do tipo date , o outro argumento será tratado como milissegundos e adicionado à data.
+*/
+
+use("conteudo_trybe");
+db.sales2.insertMany([
+  { _id: 1, item: "abc", price: 10, fee: 2, date: ISODate("2014-03-01T08:00:00Z") },
+  { _id: 2, item: "jkl", price: 20, fee: 1, date: ISODate("2014-03-01T09:00:00Z") },
+  { _id: 3, item: "xyz", price: 5,  fee: 0, date: ISODate("2014-03-15T09:00:00Z") }
+]);
+
+use("conteudo_trybe");
+db.sales2.aggregate([
+  { $project: { item: 1, total: { $add: ["$price", "$fee"] } } }
+]);
+
+// Para Data
+
+// Com argumento
+use("conteudo_trybe");
+db.sales2.aggregate([
+  { $project: { item: 1, billing_date: { $add: ["$date", 2.592e+8] } } }
+]);
+
+// Com expressão
+use("conteudo_trybe");
+db.sales2.aggregate([
+  { $project: { item: 1, billing_date: { $add: ["$date", 3 * 24 * 60 * 60000] } } }
+]);
+
+
+// Exercício de fixação
+
+
+/*
+Exercício 1 - Calcule qual o custo total de cada produto, considerando o preço de compra e os impostos.
+*/
+use("storage");
+db.products.aggregate([
+  { $project: { name: 1, totalPrice: { $add: ["$purchase_price", "$taxes"]} } }
+]);

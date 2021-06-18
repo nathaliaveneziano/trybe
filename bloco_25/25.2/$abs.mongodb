@@ -1,0 +1,39 @@
+// Expressão $abs
+
+
+/*
+A expressão $abs retorna o valor absoluto de um número (valor sempre positivo).
+*/
+
+use("conteudo_trybe");
+db.ratings.insertMany([
+  { _id: 1, start: 5, end: 8 },
+  { _id: 2, start: 4, end: 4 },
+  { _id: 3, start: 9, end: 7 },
+  { _id: 4, start: 6, end: 7 }
+]);
+
+use("conteudo_trybe");
+db.ratings.aggregate([
+  {
+    $project: {
+      delta: {
+        $abs: { $subtract: ["$start", "$end"] }
+      }
+    }
+  }
+]);
+
+
+// Exercício de fixação
+
+
+/*
+Exercício 1 - Calcule o valor absoluto do lucro total de cada produto.
+*/
+use("storage");
+db.products.aggregate([
+  { $project: { name: 1, sale_price: 1, purchase_price: 1, profit: { 
+    $abs: { $subtract: ["$sale_price", "$purchase_price"] } }
+  } }
+]);
